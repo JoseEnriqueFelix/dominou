@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Domino</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #1b1b1b;
+        overflow: hidden;
+      }
+
+      .chart-container {
+        width: 400px;
+        height: 400px;
+      }
+
+      .main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-grid">
+      <main></main>
+      <script src="p5.min (1).js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <div class="chart-container">
+        <canvas id="myChart" width="500" height="400"></canvas>
+      </div>
+    </div>
+
+    <script src="sketch (2).js"></script>
+  </body>
+</html>
